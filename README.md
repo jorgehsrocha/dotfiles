@@ -14,7 +14,7 @@ A dotfile is a file to stores settings of Linux tools, for example: .bashrc, .zs
 - gitconfig ("you need change to uses your email and name of git user")
 - Ngrok to HTTP tunnel
 - ffmpeg
-- Devops tools (terraform, ansible, kdash, certbot, etc)
+- Devops tools (docker, terraform, ansible, kdash, certbot, etc)
 - Asciinema (record and play your cli execution)
 - Fuzzy search (find files using fzf, gawk, bat)
 - Gitflow cli
@@ -31,6 +31,12 @@ A dotfile is a file to stores settings of Linux tools, for example: .bashrc, .zs
 > For install packages of Homebrew execute this command in your cli: `brew bundle`
 
 ## Customization
+
+### Devops
+
+- Docker ($lazydocker to docker manager)
+- kubernetes ($kubectl and $kdash to cluster manager)
+- Others
 
 ### Neovim
 
