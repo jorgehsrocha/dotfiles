@@ -41,7 +41,7 @@ A dotfile is a file to stores settings of Linux tools, for example: .bashrc, .zs
 ### Neovim
 
 - Setup for lazyvim (nvim distro)
-- Basic plugins for Typescrpt, Python, Git, Debugger, LSPs, etc.
+- Basic plugins for Typescrpt, Python, Git, Debugger, LSPs, DAP, etc.
 
 ### TMUX
 
