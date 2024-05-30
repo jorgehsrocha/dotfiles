@@ -1,0 +1,3 @@
+return {
+  "lithammer/nvim-pylance",
+}
