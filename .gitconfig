@@ -1,0 +1,13 @@
+[core]
+  editor = nvim -f
+[diff]
+  tool = nvim -f
+[difftool "nvim"]
+  cmd = nvim -d $LOCAL $REMOTE
+[merge]
+  tool = nvim
+[mergetool "nvim"]
+  cmd = nvim -d $MERGED
+[user]
+	email = jhrocha.sousa@gmail.com
+	name = Jorgehsrocha
