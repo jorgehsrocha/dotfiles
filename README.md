@@ -1,6 +1,6 @@
 # 🤓 My personal Dotfiles
 
-## What's dotfile ?
+![alt text](cover.png "Dotfiles")
 
 A dotfile is a file to stores settings of Linux tools, for example: .bashrc, .zshrc, .gitconfig, etc.
 
