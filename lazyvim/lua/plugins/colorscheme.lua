@@ -1,17 +1,19 @@
 return {
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   { "ellisonleao/gruvbox.nvim" },
   { "Mofiqul/vscode.nvim" },
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-  {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {},
-  },
+  { "catppuccin/nvim", name = "catppuccin" },
   { "rebelot/kanagawa.nvim" },
-  { "sainnhe/sonokai" },
-  { "folke/tokyonight.nvim" },
   { "sainnhe/everforest" },
-  { "sainnhe/edge" },
+  {
+    "LazyVim/LazyVim",
+    lazy = true,
+    event = "VeryLazy",
+    opts = {
+      colorscheme = "nordfox",
+    },
+  },
+  {
+    "EdenEast/nightfox.nvim",
+  },
+  { "catppuccin/nvim", name = "catppuccin" },
 }

@@ -45,7 +45,6 @@ _fzf_compgen_dir() {
   fd --type d --hidden --follow --exclude .git . "$1"
 }
 
-source ~/fzf-git.sh/fzf-git.sh
 
 # Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
