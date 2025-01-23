@@ -9,7 +9,7 @@ return {
     lazy = true,
     event = "VeryLazy",
     opts = {
-      colorscheme = "nordfox",
+      colorscheme = "vscode",
     },
   },
   {
